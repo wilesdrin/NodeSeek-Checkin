@@ -24,6 +24,6 @@ jobs:
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           NS_RANDOM: true    # 签到模式：true = 试试手气，false = 固定鸡腿（默认 true）
         run: python checkin.py
-
+##
       
       
